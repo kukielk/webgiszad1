@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ochrona Przyrody</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.22/"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h3 id="title">Wybrane formy ochrony przyrody we wschodnich powiatach województwa lubelskiego</h3>
+    <img id="photo" src="ochrona_przyrody.png" alt="...">
+    <div class="overlay">
+        <img id="icon" src="arrow.png" alt="...">
+    </div>
+    <div id="linki">
+        <center>
+            <a id="barlinecki" href="#map"><img src="barlinecki.png" alt=""></a>
+            <a id="drawski" href="#map"><img src="drawski_krajobrazowy.png" alt=""></a>
+            <a id="wolinski" href="#map"><img src="wolinski_pn.png" alt=""></a>
+            <a id="drawienski" href="#map"><img src="drawienski_pn.png" alt=""></a>
+        </center>
+    </div>
+    <div id="map"></div>
+    <div id="layerLists"></div>
+    <div id="text">
+        <p id="paragraf">Barlinecko-Gorzowski Park Krajobrazowy</p>
+        <p>
+            Park krajobrazowy znajduje się na terenie województw zachodniopomorskiego oraz lubuskiego.
+            Jego powierzchnia wynosi 239,8291 km kwadratowych, a jego otulina liczby 317,6819 km kwadratowych.
+            Puszcza Barlinecka, to duży kompleks leśny, który rozciąga się wzdłóż równiny sandrowej, która powstała na
+            skutek usypania przez wody odpływające z topniejącego lodowca ok 12 tys. lat temu.
+            Lasy zajmują około 81% powierzchni. Drugi, bardzo waznym elementem są liczbe jeziora. Na terenie Parku
+            wyodrębiono około 700 gatunków roślin naczyniowych, 140 gatunków porostów, ponad 100 gatunków lęgowych
+            ptaków.</p>
+        <p id="paragraf">Drawski Park Krajobrazowy</p>
+        <p>Jest położony w województwie zachodniopomorskim,
+            obejmuje najcenniejszy fragment Pojezierza Drawskiego, który zajmuje teren sześciu gmin.
+            Został utworzony w 1979 roku. Obemuje obszar 38 360, 17 ha, natomiast jego otulina wynosi 23 560,41 ha.
+            Znajdują się tutaj cenne obiekty krajobrazowe: jeziora, wały morenowe, głazy narzutowe. W parku występuje
+            ponad 40 gatunkó roślin chronionych prawnie, ponad 148 gatunków ptaków lęgowych.
+            W parku znajduje się 7 rezerwatów przyrody. Od 2012 roku park wchodzi w skład Zespołu Parków Krajobrazowych
+            Wojwództwa Zachodniopomorskiego w Szczecinie.
+        </p>
+        <p id="paragraf">Woliński Park Narodowy</p>
+        <p>
+            Został utworzony w 1960 roku, obejmuje on największą część polskiej wyspy - Wolin. Najbardziej cenne
+            elementy parku to:
+            odcinek polskiego wybrzeża klifowego, lasy bukowe, delta Świny, przybrzeżny pas wód Bałtyku. Do 1996 park
+            zajmował powierzchnię 4691 ha, potem został powiększony o jedną milę morską
+            wód przybrzeżnych Bałtyku, archipelag wysp we wstecznej delcie Świyn wraz z otaczającymi je wodami Zalewu
+            Szczecińskiego. Jest to pierwszy park w Polsce.
+            Obecna jego powierzchnia wynosi 10937 ha, w tym ekosytemy zajmują 42,5 % powierzhcni, ekosystemy wodne
+            42,8%, ekosystemy lądowe nieleśne 14,7%. Ochroną ścisłą został objęty obasz, który wynosi 4,56%.
+        </p>
+        <p id="paragraf">Drawieński Park Narodowy</p>
+        <p>
+            eren Drawieńskiego Parku Narodowego i otuliny znajduje się na Równinie Drawskiej, która jest fragmentem
+            Pojezierza Południowopomorskiego, w północno-zachodniej Polsce. Zajmuje centralną część kompleksu leśnego
+            zwanego Puszczą Drawską. DPN reprezentuje krajobraz młodoglacjalnych równin sandrowych. W całości położony
+            jest w zlewni rzeki Drawy, która razem ze swoim dopływem -Płociczną, stanowią jego główną oś hydrograficzną.
+            Obie rzeki płyną przez szeroki pas sandrów, które powstały z piasków usypanych przez wody topniejącego
+            lodowca spływające ku pradolinie Toruńsko-Eberswaldzkiej.
+        </p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
